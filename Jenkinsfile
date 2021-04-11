@@ -13,7 +13,7 @@ pipeline{
      stages{
          stage('scm checkout'){
              steps{
-                git credentialsId: 'git', url: 'https://github.com/govinda143/dockeransiblejenkins.git'
+                git credentialsId: 'git', url: 'https://github.com/govinda143/mygameoflifejenkins.git'
              }
          }
          stage('sonar qube'){
