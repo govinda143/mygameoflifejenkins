@@ -1,4 +1,4 @@
-currentBuild.displayName = "sonararjenkins-#"+currentBuild.number
+currentBuild.displayName = "gameoflife-#"+currentBuild.number
 def getversion(){
     def commitHash = sh returnStdout: true, script: 'git rev-parse --short HEAD'
     return commitHash
